@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+     <meta name="keywords" content="связь, написать, сообщение, коту Василию, обратная связь">
+     <meta name="description"
+          content="Свяжитесь с Василием. Отсюда Вы можете написать ему, чтоб получить обратную связь">
+      <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+      <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/main.css">
+       <title>Контакты</title>
+   </head>
+  <body>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12 h-50">
+            <header class="header">Связь с Василием Пупкиным</header>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <nav class="nav flex-column">
+                <a class="nav-link active" href="index.html">Главная</a>
+                <a class="nav-link disabled" href="contact_us.html">Связь с
+                    Василием Пупкиным</a>
+                <a class="nav-link active" href="about.html">О Василии
+                    Пупкине</a>
+            </nav>
+        </div>
+        <div class="col-6 form-group bg-group">
+            <form class="stacked">
+                <div class="row">
+                    <div class="form-group col-12">
+                        <input type="text" class="form-control-lg" required
+                               placeholder="Фамилия" id="firstname"/>
+                    </div>
+                    <div class="form-group col-12">
+                        <input type="text" class="form-control-lg" required
+                               placeholder="Имя" id="name"/>
+                    </div>
+                    <div class="form-group col-12">
+                        <input type="email" class="form-control-lg"
+                               id="exampleFormControlInput1"
+                               placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group col-12">
+                        <select id="message_type" name="message_type"
+                                class="form-control-lg">
+                            <option value="" disabled selected>Выберите тип
+                                сообщения
+                            </option>
+                            <option value="message">Сообщение</option>
+                            <option value="proposal">Предложение</option>
+                            <option value="abuse">Жалоба</option>
+                            <option value="feedback">Обратная связь</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12 bg-check">
+                        <input name="response" type="checkbox" id="response"
+                               class="form-check-input">
+                        <label for="response" class="form-check-label"
+                               id="check_label">
+
+                            Получить ответ по email</label>
+                    </div>
+                    <div class="form-group bg-txtarea  col-12">
+                        <textarea name="message" class="form-control-lg"
+                                  id="comment" cols="50" rows="6"
+                                  maxlength="300" wrap="hard"
+                                  placeholder="Сообщение"></textarea>
+                    </div>
+                    <div class="form-group col-12">
+                        <button type="submit"
+                                class="btn btn-primary float-left">Отправить
+                        </button>
+                        <button type="reset"
+                                class="btn btn-primary float-right">Очистить
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+        <div class="col-12">
+            <footer class="footer">Кот Вася &#169; 2021;
+            </footer>
+        </div>
+    </div>
+  </div>
+
+  </body>
+</html>
